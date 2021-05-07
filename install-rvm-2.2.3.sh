@@ -7,7 +7,7 @@ export PATH="/usr/local/opt/openssl@1.0/bin:$PATH"
 
 brew install mysql@5.7
 brew link mysql@5.7 --force
-brew unlink imagemagick
+#brew unlink imagemagick
 brew install imagemagick@6
 brew link imagemagick@6 --force
 brew install v8
