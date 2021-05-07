@@ -14,6 +14,8 @@ brew install v8
 brew install v8-315
 brew install icu4c
 
+#\curl -sSL https://get.rvm.io | bash -s stable
+#source ~/.bashrc
 rvm reinstall 2.2.3 --with-zlib-dir=$(brew --prefix zlib) --with-openssl-dir=/usr/local/opt/openssl@1.0 --with-openssl-lib=/usr/local/opt/openssl@1.0/lib --with-openssl-include=/usr/local/opt/openssl@1.0/include --with-opt-dir=/usr/local/opt/openssl@1.0  --rubygems 2.6.8   --force
 
 gem install therubyracer -v '0.12.3' -- --with-v8-dir=/usr/local/opt/v8@3.15
